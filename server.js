@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 //Set Port
-var port = process.env.PORT || 3001;
+var port = process.env.PORT || 3050;
 app.use(express.static(__dirname));
 //
 
