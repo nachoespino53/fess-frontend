@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-	console.log("Connected");
 	navigator.geolocation.getCurrentPosition(p => {
 		getPostsByLocation(p);
 		LOCATION = p;
